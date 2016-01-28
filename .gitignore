@@ -1,0 +1,7 @@
+app
+*~
+.DS_Store
+.swp
+.project
+.secret
+.vagrant

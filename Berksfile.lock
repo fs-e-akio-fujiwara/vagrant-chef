@@ -1,0 +1,59 @@
+DEPENDENCIES
+  command
+    path: site-cookbooks/command
+  cron (~> 1.6.1)
+  git
+  gitconfig
+    path: site-cookbooks/gitconfig
+  mysql (~> 6.0)
+  mysql-server
+    path: site-cookbooks/mysql-server
+  nginx
+    path: site-cookbooks/nginx
+  nodejs
+    path: site-cookbooks/nodejs
+  ntp
+  ruby-env
+    path: site-cookbooks/ruby-env
+  screen (~> 0.8.0)
+  vim (~> 1.1.2)
+  yum-epel
+  yum-repoforge
+
+GRAPH
+  build-essential (2.2.3)
+  chef_handler (1.2.0)
+  command (0.1.0)
+  cron (1.6.1)
+  dmg (2.2.2)
+  git (4.3.3)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  gitconfig (0.1.0)
+  mysql (6.1.2)
+    smf (>= 0.0.0)
+    yum-mysql-community (>= 0.0.0)
+  mysql-server (0.1.0)
+  nginx (0.1.0)
+  nodejs (0.1.0)
+  ntp (1.8.6)
+  rbac (1.0.3)
+  ruby-env (0.1.0)
+  screen (0.8.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+  smf (2.2.7)
+    rbac (>= 1.0.1)
+  vim (1.1.2)
+  windows (1.38.1)
+    chef_handler (>= 0.0.0)
+  yum (3.6.3)
+  yum-epel (0.6.2)
+    yum (~> 3.2)
+  yum-mysql-community (0.1.18)
+    yum (>= 3.0)
+  yum-repoforge (0.5.3)
+    yum (~> 3.2)
+    yum-epel (>= 0.0.0)
