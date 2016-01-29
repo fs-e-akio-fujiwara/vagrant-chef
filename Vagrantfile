@@ -54,6 +54,7 @@ def chef_web_setting config, environment, setting
       recipe[gitconfig]
       recipe[command]
       recipe[ntp]
+      recipe[sudoers]
     ]
   end
 end

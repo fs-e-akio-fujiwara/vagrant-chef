@@ -16,6 +16,8 @@ DEPENDENCIES
   ruby-env
     path: site-cookbooks/ruby-env
   screen (~> 0.8.0)
+  sudoers
+    path: site-cookbooks/sudoers
   vim (~> 1.1.2)
   yum-epel
   yum-repoforge
@@ -46,6 +48,7 @@ GRAPH
     git (>= 0.0.0)
   smf (2.2.7)
     rbac (>= 1.0.1)
+  sudoers (0.1.0)
   vim (1.1.2)
   windows (1.38.1)
     chef_handler (>= 0.0.0)

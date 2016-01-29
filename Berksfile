@@ -6,6 +6,7 @@ cookbook "ruby-env", path: "./site-cookbooks/ruby-env"
 cookbook "nodejs", path: "./site-cookbooks/nodejs"
 cookbook "mysql", '~> 6.0'
 cookbook "mysql-server", path: "./site-cookbooks/mysql-server"
+cookbook "sudoers", path: "./site-cookbooks/sudoers"
 cookbook "yum-repoforge"
 cookbook "git"
 cookbook 'screen', '~> 0.8.0'

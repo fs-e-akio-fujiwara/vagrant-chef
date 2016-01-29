@@ -1,11 +1,11 @@
-environment_variable CHANGELOG
+sudoers CHANGELOG
 ==============================
 
-This file is used to list changes made in each version of the environment_variable cookbook.
+This file is used to list changes made in each version of the sudoers cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of environment_variable
+- [your_name] - Initial release of sudoers
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

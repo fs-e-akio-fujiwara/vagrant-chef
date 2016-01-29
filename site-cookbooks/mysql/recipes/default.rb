@@ -1,4 +1,4 @@
-%w{mariadb-server redis}.each do |pkg|
+%w{mariadb-server mariadb-devel redis}.each do |pkg|
   package pkg do
     action :install
   end
