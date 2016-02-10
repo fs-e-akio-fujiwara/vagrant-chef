@@ -1,2 +1,2 @@
-# social-dating-chef
-social dating chef
+# vagrant-chef
+vagrant + chef
